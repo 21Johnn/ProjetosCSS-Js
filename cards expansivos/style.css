@@ -18,7 +18,7 @@ body{
     width: 90vw;
 }
 
-.panel{
+.painel{
     background-size: auto 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -32,7 +32,7 @@ body{
     transition: flex 0.7s ease-in;
 }
 
-.panel h3{
+.painel h3{
     font-size: 24px;
     position: absolute;
     bottom: 20px;
@@ -41,11 +41,11 @@ body{
     opacity: 0;
 }
 
-.panel.active{
+.painel.active{
     flex: 5;
 }
 
-.panel.active h3{
+.painel.active h3{
     opacity: 1;
     transition: opacity 2s ease-in;
 }
@@ -55,8 +55,8 @@ body{
         width: 100vw;
     }
 
-    .panel:nth-of-type(4),
-    .panel:nth-of-type(5){
+    .painel:nth-of-type(4),
+    .painel:nth-of-type(5){
         display: none;
     }
 }
